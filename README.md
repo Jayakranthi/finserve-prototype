@@ -2,6 +2,26 @@
 
 A comprehensive prototype for a financial services platform that demonstrates user onboarding and orchestration layer access for managing financial portfolios.
 
+## ⚡ Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/Jayakranthi/finserve-prototype.git
+cd finserve-prototype
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
+
+**Demo Credentials:**
+- Email: `demo@finserve.com`
+- Password: `demo123`
+
+**Live Demo:** [https://github.com/Jayakranthi/finserve-prototype](https://github.com/Jayakranthi/finserve-prototype)
+
 ## 🚀 Technology Choice & Justification
 
 ### React with JavaScript
@@ -49,21 +69,79 @@ src/
 ### Prerequisites
 - Node.js (v16 or higher)
 - npm or yarn
+- Git
 
-### Installation
+### Option 1: Clone from GitHub
 
-1. **Install dependencies**
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Jayakranthi/finserve-prototype.git
+   cd finserve-prototype
+   ```
+
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-2. **Start the development server**
+3. **Start the development server**
    ```bash
    npm start
    ```
 
-3. **Open your browser**
+4. **Open your browser**
    Navigate to `http://localhost:3000`
+
+### Option 2: Fork and Clone
+
+1. **Fork the repository**
+   - Go to https://github.com/Jayakranthi/finserve-prototype
+   - Click the "Fork" button in the top right
+   - This creates a copy in your GitHub account
+
+2. **Clone your fork**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/finserve-prototype.git
+   cd finserve-prototype
+   ```
+
+3. **Add upstream remote**
+   ```bash
+   git remote add upstream https://github.com/Jayakranthi/finserve-prototype.git
+   ```
+
+4. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+5. **Start the development server**
+   ```bash
+   npm start
+   ```
+
+### Option 3: Download ZIP
+
+1. **Download the repository**
+   - Go to https://github.com/Jayakranthi/finserve-prototype
+   - Click the green "Code" button
+   - Select "Download ZIP"
+   - Extract the ZIP file
+
+2. **Navigate to the project**
+   ```bash
+   cd finserve-prototype
+   ```
+
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**
+   ```bash
+   npm start
+   ```
 
 ### Demo Credentials
 - **Email**: `demo@finserve.com`
@@ -165,6 +243,84 @@ The build folder can be deployed to any static hosting service:
 - Vercel
 - AWS S3
 - GitHub Pages
+
+## 📚 GitHub Repository
+
+### Repository Information
+- **URL**: https://github.com/Jayakranthi/finserve-prototype
+- **Owner**: Jayakranthi
+- **License**: MIT
+- **Language**: JavaScript
+- **Framework**: React
+
+### Contributing
+
+1. **Fork the repository**
+   ```bash
+   # Click the Fork button on GitHub, then clone your fork
+   git clone https://github.com/YOUR_USERNAME/finserve-prototype.git
+   cd finserve-prototype
+   ```
+
+2. **Create a feature branch**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+3. **Make your changes**
+   - Follow the existing code style
+   - Add tests for new features
+   - Update documentation as needed
+
+4. **Commit your changes**
+   ```bash
+   git add .
+   git commit -m "Add: your feature description"
+   ```
+
+5. **Push to your fork**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+6. **Create a Pull Request**
+   - Go to your fork on GitHub
+   - Click "Compare & pull request"
+   - Fill out the PR template
+   - Submit the PR
+
+### Pull Request Guidelines
+- **Title**: Clear, descriptive title
+- **Description**: Explain what the PR does and why
+- **Testing**: Include test cases for new features
+- **Documentation**: Update README if needed
+- **Code Style**: Follow existing patterns
+
+### Issues and Bug Reports
+- Use the GitHub Issues tab
+- Provide clear steps to reproduce
+- Include browser/OS information
+- Add screenshots if relevant
+
+### Development Workflow
+```bash
+# Keep your fork up to date
+git fetch upstream
+git checkout main
+git merge upstream/main
+
+# Create feature branch
+git checkout -b feature/new-feature
+
+# Make changes and test
+npm start
+npm test
+
+# Commit and push
+git add .
+git commit -m "Add: new feature"
+git push origin feature/new-feature
+```
 
 ## 🔮 Future Improvements
 
